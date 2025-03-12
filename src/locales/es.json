@@ -1,0 +1,18 @@
+{
+    "header": {
+        "title": "N5 Prueba Frontend / Jose Daniel Vivas Rosales",
+        "description": "Escoge una Película entre Rick y Morty y explora tus personajes Favoritos!!",
+        "english": "Inglés",
+        "spanish": "Español"
+    },
+    "card_characters": {
+        "name": "Nombre:",
+        "movie": "Película/Serie",
+        "gender": "Género",
+        "species": "Especie",
+        "link": "Link API",
+        "showMore": "Ver más",
+        "unknownGender": "No descubierto",
+        "unknownSpecies": "Sin Información"
+    }
+}

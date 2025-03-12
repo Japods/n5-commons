@@ -1,0 +1,57 @@
+.card {
+    background-color: #2d3748;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* Hace que la imagen y el contenido estén en columna */
+    align-items: center;
+    width: 260px;
+    /* Tamaño más consistente */
+    overflow: hidden;
+    text-align: center;
+    /* Centra el contenido */
+    padding-bottom: 10px;
+
+    &__image {
+        width: 100%;
+        height: 180px;
+        /* Tamaño fijo para todas las imágenes */
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Mantiene la proporción y recorta si es necesario */
+        }
+    }
+
+    &__content {
+        padding: 10px;
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: #fff;
+    }
+
+    &__text {
+        font-size: 0.875rem;
+        color: #e2e8f0;
+        margin: 5px 0;
+    }
+
+    &__link {
+        color: #90cdf4;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

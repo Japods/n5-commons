@@ -1,0 +1,32 @@
+.header {
+    text-align: center;
+    background: #09122C;
+    height: auto;
+    align-items: center;
+    padding: 3rem;
+
+    &__title {
+        margin-top: 20px;
+    }
+
+    &__subtitle {
+        margin-top: 20px;
+    }
+
+    &__buttons {
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    &__button:focus {
+        outline: none;
+    }
+
+    &__button {
+
+        &--active {
+            background-color: white;
+            color: #09122C;
+        }
+    }
+}
