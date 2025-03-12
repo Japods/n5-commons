@@ -10,8 +10,8 @@ export default defineConfig({
     filename: 'remoteEntry.js',
     exposes: {
       // './Button': './src/components/Button.jsx',
-      './CardCharacter': './src/components/CardCharacter.jsx',
-      './Header': './src/components/Header.jsx',
+      './CardCharacter': './src/components/CardCharacter/CardCharacter.jsx',
+      './Header': './src/components/Header/Header.jsx',
     },
     remotes: {},
     shared: ['react', 'react-dom'],
