@@ -16,6 +16,13 @@ export default defineConfig({
     remotes: {},
     shared: ['react', 'react-dom'],
   })],
+  server: {
+    cors: {
+      origin: '*', // Permite cualquier origen
+      methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
+      allowedHeaders: ['Content-Type', 'Authorization'],
+    },
+  },
   test: {
     globals: true,
     environment: "jsdom",
