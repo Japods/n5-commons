@@ -9,7 +9,7 @@ export default defineConfig({
     name: 'n5-remote-commons',
     filename: 'remoteEntry.js',
     exposes: {
-      './Button': './src/components/Button.jsx',
+      // './Button': './src/components/Button.jsx',
       './CardCharacter': './src/components/CardCharacter.jsx',
       './Header': './src/components/Header.jsx',
     },
