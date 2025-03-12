@@ -17,11 +17,7 @@ export default defineConfig({
     shared: ['react', 'react-dom'],
   })],
   server: {
-    cors: {
-      origin: '*', // Permite cualquier origen
-      methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
-      allowedHeaders: ['Content-Type', 'Authorization'],
-    },
+    cors: true, // Habilita CORS en desarrollo
   },
   test: {
     globals: true,
